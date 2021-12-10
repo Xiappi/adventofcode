@@ -152,7 +152,7 @@ namespace AdventOfCode
         }
         public static void Part1()
         {
-            var path = @"C:\Repositories\AdventOfCode\AdventOfCode\Day4Input1.txt";
+            var path = @"C:\Repositories\AdventOfCode\AdventOfCode\Inputs\Day4Input1.txt";
             var lines = System.IO.File.ReadAllLines(path);
 
             var board = new Board(lines);
@@ -174,7 +174,7 @@ namespace AdventOfCode
         
         public static void Part2()
         {
-            var path = @"C:\Repositories\AdventOfCode\AdventOfCode\Day4Input1.txt";
+            var path = @"C:\Repositories\AdventOfCode\AdventOfCode\Inputs\Day4Input1.txt";
             var lines = System.IO.File.ReadAllLines(path);
 
             var board = new Board(lines);
